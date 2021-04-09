@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1080px" height="23px" viewBox="0 0 1080 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle Copy 16</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="51.2239349%" x2="100%" y2="51.2239337%" id="linearGradient-1">
+            <stop stop-color="#E3EFFD" offset="0%"></stop>
+            <stop stop-color="#F7F9FE" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Подвал-Copy-2" transform="translate(-280.000000, 0.000000)" fill="url(#linearGradient-1)">
+            <path d="M1360,23 L280,23 L280,22.156574 C426.924173,-0.339820202 618.40579,-5.70514467 854.444853,6.06060056 C1090.48392,17.8263458 1259.0023,20.1408938 1360,13.0042447 L1360,23 Z" id="Rectangle-Copy-16"></path>
+        </g>
+    </g>
+</svg>

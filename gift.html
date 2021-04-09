@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Patronus</title>
+  <meta charset="utf-8">
+  <meta content="width=device-width,minimum-scale=1.0,maximum-scale=1.0" name="viewport">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <link rel="stylesheet" type="text/css" href="includes/css/common.css">
+  <link rel="stylesheet" type="text/css" href="includes/css/perfect-scrollbar.min.css">
+  <script src="includes/js/jquery.min.js"></script>
+  <script src="includes/js/jquery-ui.js"></script>
+  <script src="includes/js/perfect-scrollbar.min.js"></script>
+</head>
+<body lang="en-us">
+  <div class="head">
+    <div class="container clear">
+      <div class="head-wrap">
+        <a class="logo" href="#">
+          <img src="includes/img/logo/logo.svg" alt="">
+        </a>
+        <div class="mob clear">
+          <div class="icon-hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+      </div>
+      <div class="main-menu">
+        <div class="main-menu_wrap clear">
+          <ul>
+            <li class="active"><a href="#">Blog</a></li>
+            <li><a href="#">Mindfulness Tips</a></li>
+            <li><a href="#">For Work</a></li>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">My Patronus</a></li>
+          </ul>
+          <a class="btn type-1" href="#">Buy premium</a>
+          <div class="menu mob">
+            <ul>
+              <li>
+                <div class="lang clear">
+                  <a href="#">Ru</a>
+                  <a href="#" class="active">En</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="header header-gift" id="giftArr" data-attr="data-type" data-type="2">
+    <div class="container">
+      <div class="gift-header">
+        <div class="gift-choose">
+          <h1>Give the Gift of Patronus</h1>
+          <h3>Share the benefits of Premium with someone special</h3>
+          <div class="gifts clear" data-update='["gift", "giftView", "giftIco", "giftImg", "giftArr"]'>
+            <div class="gift type-1" data-update='["1", "\"1 Month of Patronus\"", "type-1", "includes/img/icons/5.svg", "1"]'>
+              <div class="wrap">
+                <img src="includes/img/icons/5.svg" alt="">
+                <div>1 Month</div>
+              </div>
+              <div class="price">4 $</div>
+            </div>
+            <div class="gift type-2" selected="" data-update='["2", "\"1 Year of Patronus\"", "type-2", "includes/img/icons/6.svg", "2"]'>
+              <div class="wrap">
+                <img src="includes/img/icons/6.svg" alt="">
+                <div>1 Year</div>
+              </div>
+              <div class="price">49 $</div>
+            </div>
+            <div class="gift type-3" data-update='["3", "\"Forever of Patronus\"", "type-3", "includes/img/icons/4.svg", "3"]'>
+              <div class="wrap">
+                <img src="includes/img/icons/4.svg" alt="">
+                <div>Forever</div>
+              </div>
+              <div class="price">129 $</div>
+            </div>
+          </div>
+          <p>Received a gift? <a href="#">Redeem it here.</a></p>
+        </div>
+        <div class="gift-info">
+          <div class="gift-info_wrap">
+            <div class="gift-info-item">
+              <div class="img">
+                <img src="includes/img/icons/help/6.svg" alt="">
+              </div>
+              <div class="info">
+                <h4>Personalized lessons</h4>
+                Patronus adjusts to your preferences. It's easy to find lessons that suit you.
+              </div>
+            </div>
+            <div class="gift-info-item">
+              <div class="img">
+                <img src="includes/img/icons/help/5.svg" alt="">
+              </div>
+              <div class="info">
+                <h4>Always with you</h4>
+                Practice at home, on work or while commuting. Pre-download any lesson if you need.
+              </div>
+            </div>
+            <div class="gift-info-item">
+              <div class="img">
+                <img src="includes/img/icons/help/1.svg" alt="">
+              </div>
+              <div class="info">
+                <h4>Get started with ease</h4>
+                Learn to meditate in just seven minutes a day with the Basic course.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="content">
+    <div class="container">
+      <div class="content-order clear">
+        <div class="card-preview">
+          <h3>Gift Card’s Preview</h3>
+          <img src="includes/img/base/giftCard.svg" alt="">
+        </div>
+        <form>
+          <div class="view clear">
+            <div class="icon type-2" data-class="icon" id="giftIco">
+              <img id="giftImg" src="includes/img/icons/6.svg" alt="">
+            </div>
+            <h3>Fill in the Form to send the Gift <div id="giftView">"1 Year of Patronus"</div></h3>
+          </div>
+          <input type="hidden" name="gift" id="gift" value="2">
+          <div class="p2 clear">
+            <div class="input">
+              <div class="input-head">Recipient's Name</div>
+              <input type="text" data-type="text">
+            </div>
+            <div class="input">
+              <div class="input-head">Recipient's Email</div>
+              <input type="text" data-type="email">
+            </div>
+          </div>
+          <div class="input">
+            <div class="input-head">Personal message (optional)</div>
+            <textarea></textarea>
+          </div>
+          <div class="submit">
+            <button class="btn type-1" type="submit">Continue to Payment</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="container">
+      <div class="links-layout">
+        <div class="links-column">
+          <h4>Offers</h4>
+          <ul>
+            <li><a href="#">Premium</a></li>
+            <li><a href="#">Send a Gift</a></li>
+            <li><a href="#">For Companies</a></li>
+          </ul>
+        </div>
+        <div class="links-column">
+          <h4>About</h4>
+          <ul>
+            <li><a href="#">Our Team</a></li>
+            <li><a href="#">Our Blog</a></li>
+            <li><a href="#">For Press</a></li>
+          </ul>
+        </div>
+        <div class="links-column">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Mindfulness Tips</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="links-column">
+          <h4>Media</h4>
+          <ul>
+            <li><a href="#"><div class="icon"><img src="includes/img/icons/social/footer/instagram.svg" alt=""></div>Instagram</a></li>
+            <li><a href="#"><div class="icon"><img src="includes/img/icons/social/footer/twitter.svg" alt=""></div>Twitter</a></li>
+            <li><a href="#"><div class="icon"><img src="includes/img/icons/social/footer/facebook.svg" alt=""></div>Facebook</a></li>
+          </ul>
+        </div>
+        <div class="links-column column_downloads">
+          <h4>The App</h4>
+          <div class="links-download">
+            <a href="#"><img src="includes/img/base/appStore.png" alt=""></a>
+            <a href="#"><img src="includes/img/base/googlePlay.png" alt=""></a>
+          </div>
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="footer-bottom clear">
+        <ul class="clear">
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Privacy</a></li>
+          <li>
+            <div class="lang clear">
+              <a href="#">Ru</a>
+              <a href="#" class="active">En</a>
+            </div>
+          </li>
+        </ul>
+        <div class="copy">
+          &copy; 2018 Patronus
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="mainBack"></div>
+  
+  <script src="includes/js/common.js"></script>
+</body>
+</html>

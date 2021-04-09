@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1360px" height="67px" viewBox="0 0 1360 67" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>1-bac</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="landing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-" transform="translate(0.000000, -798.000000)" fill="#FFFFFF">
+            <g id="Group-64" transform="translate(0.000000, 21.000000)">
+                <g id="0-bac" transform="translate(0.000000, 777.000000)">
+                    <path d="M0,67 L1360,67 L1360,3 C1133.33333,45.6666667 906.666667,67 680,67 C453.333333,67 226.666667,45.6666667 0,3 L0,67 Z" id="Mask"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

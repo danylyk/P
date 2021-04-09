@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="41" height="46" viewBox="0 0 41 46">
+    <defs>
+        <linearGradient id="a" x1="54.858%" x2="54.858%" y1="-119.001%" y2="80.038%">
+            <stop offset="0%" stop-color="#FBE38D"/>
+            <stop offset="100%" stop-color="#F7A96C"/>
+        </linearGradient>
+        <linearGradient id="b" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#FBE38D"/>
+            <stop offset="100%" stop-color="#F7A96C"/>
+        </linearGradient>
+        <linearGradient id="c" x1="-215.078%" x2="38.623%" y1="-29.268%" y2="94.777%">
+            <stop offset="0%" stop-color="#F6C37B"/>
+            <stop offset="100%" stop-color="#F88052"/>
+        </linearGradient>
+        <linearGradient id="d" x1="-311.067%" x2="116.113%" y1="-49.082%" y2="119.191%">
+            <stop offset="0%" stop-color="#FACC69"/>
+            <stop offset="100%" stop-color="#F68A59"/>
+        </linearGradient>
+        <linearGradient id="e" x1="-32.156%" y1="-38.171%" y2="129.68%">
+            <stop offset="0%" stop-color="#FBE58D"/>
+            <stop offset="100%" stop-color="#F7A96C"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="nonzero">
+        <path fill="url(#a)" d="M34.288 16.734h-2.13V8.928A6.807 6.807 0 0 0 25.36 2.13a6.807 6.807 0 0 0-6.8 6.798v7.806h-2.129V8.928C16.431 4.005 20.437 0 25.36 0s8.928 4.005 8.928 8.928v7.806z" transform="matrix(-1 0 0 1 41 0)"/>
+        <path fill="url(#b)" d="M24.178 16.734h-2.13V8.928A6.807 6.807 0 0 0 15.25 2.13a6.807 6.807 0 0 0-6.798 6.798v7.806H6.32V8.928C6.32 4.005 10.326 0 15.249 0c4.924 0 8.929 4.005 8.929 8.928v7.806z" transform="matrix(-1 0 0 1 41 0)"/>
+        <path fill="url(#c)" d="M40.526 13.422H35.47l-4.259 16.289L35.471 46h5.055z" transform="matrix(-1 0 0 1 41 0)"/>
+        <path fill="url(#d)" d="M30.415 13.422l-4.26 16.289L30.416 46h5.055V13.422z" transform="matrix(-1 0 0 1 41 0)"/>
+        <path fill="url(#e)" d="M.084 13.422h30.331V46H.084z" transform="matrix(-1 0 0 1 41 0)"/>
+    </g>
+</svg>
